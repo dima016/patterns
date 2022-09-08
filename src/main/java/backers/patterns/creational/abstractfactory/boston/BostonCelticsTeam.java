@@ -7,7 +7,7 @@ import backers.patterns.creational.abstractfactory.Team;
 public class BostonCelticsTeam implements Team {
 
     @Override
-    public String name() {
+    public String getName() {
         return "BOSTON CELTICS";
     }
 

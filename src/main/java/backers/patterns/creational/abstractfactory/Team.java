@@ -2,7 +2,7 @@ package backers.patterns.creational.abstractfactory;
 
 public interface Team {
 
-    String name();
+    String getName();
 
     Background getBackground();
 

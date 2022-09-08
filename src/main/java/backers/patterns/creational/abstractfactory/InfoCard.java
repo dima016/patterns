@@ -7,7 +7,7 @@ public class InfoCard {
     private final CoachingStaff coachingStaff;
 
     public InfoCard(Team team) {
-        this.name = team.name();
+        this.name = team.getName();
         this.background = team.getBackground();
         this.coachingStaff = team.getCoachingStaff();
     }
