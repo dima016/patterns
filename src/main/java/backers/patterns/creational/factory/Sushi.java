@@ -1,6 +1,6 @@
 package backers.patterns.creational.factory;
 
-public class Sushi implements Food{
+public class Sushi implements Food {
     @Override
     public void processOrderDetails(String details) {
         //sushi set size
